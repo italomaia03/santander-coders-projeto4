@@ -21,6 +21,8 @@ Este projeto consiste em uma aplicação Java utilizando Spring Boot 3.2.4 e Mav
 6. Rode a aplicação a partir do arquivo .jar gerado na pasta target.
 
    ```bash
+   git clone git@github.com:italomaia03/santander-coders-projeto4.git
+   cd santander-coders-projeto4/
    docker compose up -d
    ./mvnw clean install -Dmaven.skip.tests=true
    java -jar target/meu-arquivo-jar.jar
